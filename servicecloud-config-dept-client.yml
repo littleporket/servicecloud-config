@@ -9,7 +9,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: servicecloud-dept
+    name: servicecloud-config-client-dept8001
   datasource:
        type: com.alibaba.druid.pool.DruidDataSource
        driver-class-name: org.gjt.mm.mysql.Driver
@@ -34,7 +34,7 @@ eureka:
       #defaultZone: http://localhost:7001/eureka
        defaultZone: http://eureka7001.com:7001/eureka/
   instance:
-    instance-id: servicecloud-dept8001
+    instance-id: servicecloud-config-client-dept8001
     prefer-ip-address: true   #访问路径显
 
 info:
